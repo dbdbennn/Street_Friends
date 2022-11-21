@@ -12,7 +12,7 @@
     top: 0;
   }
   nav {
-    height: 44px;
+    height: 66px;
     display: flex; /* 기본값: 수평 방향 */
     justify-content: space-between; /* 양쪽정렬 */
     align-items: center; /* 교차축 가운데 */
