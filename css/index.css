@@ -5,4 +5,9 @@ body {
     width: 100px;
     height: 80px;
     align-items: center;
+    float: left;
+}
+.title{
+    float: left;
+    align-items: center;
 }
