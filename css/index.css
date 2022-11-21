@@ -11,7 +11,3 @@ body {
     float: left;
     align-items: center;
 }
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 200px;
-}
