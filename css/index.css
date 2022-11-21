@@ -4,4 +4,5 @@ body {
 .log-img {
     width: 100px;
     height: 80px;
+    align-items: center;
 }
