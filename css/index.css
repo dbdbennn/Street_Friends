@@ -1,6 +1,9 @@
 body {
     background-color: #FFEDAE;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 main {
     margin: 88px 32px 44px;
     display: flex; /* card 3개 수평정렬 */
