@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+}
 footer{
     background-color: #855A3A;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer-container {
@@ -17,6 +22,7 @@ footer{
 .col-box1 p {
     font-size: 30px;
     color: #FFFFFF;
+    align-items: center;
 }
 
 .col-box2{
@@ -28,6 +34,7 @@ footer{
     width: 30px;
     height: 24px;
     color: #FFFFFF;
+    align-items: center;
 }
 
 @media screen and (max-width: 856px) {
