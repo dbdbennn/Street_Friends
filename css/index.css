@@ -17,6 +17,7 @@ main {
     height: 80px;
     align-items: center;
     float: left;
+    margin-bottom: 12px;
 }
 .title{
     float: left;
