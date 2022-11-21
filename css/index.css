@@ -1,6 +1,14 @@
 body {
     background-color: #FFEDAE;
 }
+main {
+    margin: 88px 32px 44px;
+    display: flex; /* card 3개 수평정렬 */
+    justify-content: center; /* card 3개 가운데 정렬 */
+    column-gap: 60px;
+    row-gap: 40px;
+    flex-wrap: wrap; /* 너비 좁아지면, 내리자 */
+  }
 .log-img {
     width: 100px;
     height: 80px;
