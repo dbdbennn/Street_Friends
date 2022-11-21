@@ -43,8 +43,8 @@ main {
 .card-menu {
     text-align: center; /* 메뉴 가운데 정렬 */
 }
-.gender {
+.kind {
     margin-top: 45px;
-    line-height: 120%;
+    line-height: 200%;
 }
   
