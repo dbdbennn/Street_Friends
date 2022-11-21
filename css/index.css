@@ -21,12 +21,13 @@ main {
 }
 .card {
     background-color: #f3f3f3;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     /* flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 240px; */
     flex: 1 0 240px;
-    max-width: 300px; /* 최대 너비: 300px */
+    max-width: 228px; /* 최대 너비: 228px */
+    height: 293px;
   }
 .card-description {
     display: flex;
