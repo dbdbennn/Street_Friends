@@ -4,7 +4,8 @@
     margin-right: 0.875rem;
   }
   header {
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
+    background-color: #855A3A;
     position: fixed; /* 스크롤해도 항상 위치 고정 */
     left: 0;
     right: 0;
