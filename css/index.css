@@ -11,3 +11,7 @@ body {
     float: left;
     align-items: center;
 }
+.animal-info{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
