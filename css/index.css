@@ -35,16 +35,11 @@ main {
     row-gap: 1rem;
     padding: 1rem;
 }
-.card-title {
-    display: flex;
-    justify-content: center;  /* 날짜 | 식 가운데 정렬 */
-    column-gap: 1rem;
-}
 .card-menu {
     text-align: center; /* 메뉴 가운데 정렬 */
 }
 .kind {
-    margin-top: 110px;
+    margin-top: 120px;
     line-height: 200%;
     font-weight: bold;
 }
