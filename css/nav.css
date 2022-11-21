@@ -55,6 +55,12 @@
   .nav-logo {
     margin: 0 auto; /* 로고 가운데 정렬 */
   }
+  .log-img{
+    margin-bottom: 10px;
+  }
+  .title{
+    display: none;
+  }
   .nav-list {
     position: absolute;
     top: 44px;
