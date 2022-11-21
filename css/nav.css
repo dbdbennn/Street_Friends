@@ -31,6 +31,10 @@
   .nav-link {
     color: #fff;
   }
+  .title {
+    float: right;
+    margin-top: 30px;
+  }
   /* breakpoints */
 /* 2K & 4K */
 
