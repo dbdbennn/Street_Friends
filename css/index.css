@@ -43,6 +43,12 @@ main {
 .card-menu {
     text-align: center; /* 메뉴 가운데 정렬 */
 }
+.img{
+    width: 198px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
 .kind {
     margin-top: 110px;
     line-height: 200%;
