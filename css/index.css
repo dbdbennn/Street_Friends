@@ -8,7 +8,7 @@ main {
     column-gap: 60px;
     row-gap: 40px;
     flex-wrap: wrap; /* 너비 좁아지면, 내리자 */
-  }
+}
 .log-img {
     width: 100px;
     height: 80px;
@@ -28,19 +28,22 @@ main {
     flex: 1 0 240px;
     max-width: 228px; /* 최대 너비: 228px */
     height: 293px;
-  }
+}
 .card-description {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
     padding: 1rem;
-  }
-  .card-title {
+}
+.card-title {
     display: flex;
     justify-content: center;  /* 날짜 | 식 가운데 정렬 */
     column-gap: 1rem;
-  }
-  .card-menu {
+}
+.card-menu {
     text-align: center; /* 메뉴 가운데 정렬 */
-  }
+}
+.kind {
+    padding-top: 60px;
+}
   
