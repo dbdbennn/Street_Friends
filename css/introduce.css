@@ -11,10 +11,10 @@ body {
 }
 
 .tit{
-    margin-top: 100px;
+    margin-top: 10vh;
     font-size: 30px;
     color: black;
-    margin-left: 50px;
+    margin-left: 7vw;
     display: flex;
     flex-direction: column;
 }
@@ -29,4 +29,21 @@ hr {
     margin: 0;
     height: 0.5px;
     background-color: var(--font-color);
+}
+
+.introduce {
+    display: flex;
+    margin: 50px;
+    margin-left: 7vw;
+    gap: 5vw;
+}
+
+.story-image {
+    width: 50vw;
+    border-radius: 30px;
+    
+}
+
+.story-p {
+
 }
