@@ -1,3 +1,7 @@
+:root{
+    --font-color : #392210;
+  }
+
 body {
     background-color: #FFEDAE;
 }
@@ -11,7 +15,18 @@ body {
     font-size: 30px;
     color: black;
     margin-left: 50px;
-    text-decoration: underline;
-    text-underline-position: under;
+    display: flex;
+    flex-direction: column;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
+hr {
+    border:0;
+    width: 295px;
+    margin: 0;
+    height: 0.5px;
+    background-color: var(--font-color);
+}

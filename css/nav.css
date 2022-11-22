@@ -1,3 +1,7 @@
+:root{
+  --font-color : #392210;
+}
+
 /* nav */
 .container {
     margin-left: 0.875rem;
@@ -30,7 +34,7 @@
     list-style: none;
   }
   .nav-link {
-    color: black;
+    color: var(--font-color);
     text-decoration: none;
     font-size: 30px;
     margin-right: 20px;

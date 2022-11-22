@@ -1,3 +1,7 @@
+:root{
+    --font-color : hsl(0, 0%, 20%);
+}
+
 body {
     background-color: #FFEDAE;
 }
