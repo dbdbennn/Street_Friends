@@ -12,5 +12,6 @@ body {
     color: black;
     margin-left: 50px;
     text-decoration: underline;
+    text-underline-position: under;
 }
 
