@@ -7,10 +7,11 @@
 // colorCd : 색상
 // age : 나이
 // weight : 체중
-const KEY = "rb7O7oSfVkWUcexLi2pn6VaPa82kTvaE3BtiP%2BBz21WfZGE4GVF%2BoCizRopEZjsi4vxBVpkGQa%2Fsx%2BT6PH3QyQ%3D%3D"
-const upr_cd = "6110000"
-const upkind = "417000"
-let url = `http://apis.data.go.kr/1543061/abandonmentPublicSrvc`
+const KEY = "rb7O7oSfVkWUcexLi2pn6VaPa82kTvaE3BtiP%2BBz21WfZGE4GVF%2BoCizRopEZjsi4vxBVpkGQa%2Fsx%2BT6PH3QyQ%3D%3D";
+const upr_cd = "6110000";
+const upkind = "417000";
+let url = `http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=rb7O7oSfVkWUcexLi2pn6VaPa82kTvaE3BtiP%2BBz21WfZGE4GVF%2BoCizRopEZjsi4vxBVpkGQa%2Fsx%2BT6PH3QyQ%3D%3D`
         + `KEY=${KEY}`
         + `upr_cd=${upr_cd}`
-        + `upkind=${upkind}`
+        + `upkind=${upkind}`;
+console.log(url);
