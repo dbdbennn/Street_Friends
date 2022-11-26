@@ -53,35 +53,38 @@ hr {
 }
 
 .story-p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'NanumSquareNeo-Variable';
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 768px){
     .story-image {
-        width: 35vw;
+        width: 600px;
         border-radius: 30px;
         
     }
-
+    .introduce{
+        display: block;
+        text-align: center;
+    }
     .story-p {
         font-size: 1.25rem;
         font-family: 'NanumSquareNeo-Variable';
-        line-height: 3rem;
+        line-height: 2rem;
     }
 }
 
 @media screen and (max-width: 600px){
     .story-image {
-        width: 250px;
+        width: 300px;
         border-radius: 30px;
     }
 
     .story-p {
         font-size: 0.5rem;
         font-family: 'NanumSquareNeo-Variable';
-        line-height: 3rem;
+        line-height: 1rem;
     }
 
     .introduce{
