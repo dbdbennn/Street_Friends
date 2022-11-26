@@ -15,7 +15,9 @@ body {
     width: 100px;
     height: 80px;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 .tit{
     margin-top: 10vh;
     font-size: 30px;
