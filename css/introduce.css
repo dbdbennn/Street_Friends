@@ -54,7 +54,8 @@ hr {
 
 .story-p {
     font-size: 2rem;
-<<<<<<< HEAD
+    font-family: 'NanumSquareNeo-Variable';
+    line-height: 3rem;
 }
 
 @media screen and (min-width: 600px){
@@ -66,6 +67,8 @@ hr {
 
     .story-p {
         font-size: 1.25rem;
+        font-family: 'NanumSquareNeo-Variable';
+        line-height: 3rem;
     }
 }
 
@@ -77,14 +80,12 @@ hr {
 
     .story-p {
         font-size: 0.5rem;
+        font-family: 'NanumSquareNeo-Variable';
+        line-height: 3rem;
     }
 
     .introduce{
         display: block;
         text-align: center;
     }
-=======
-    font-family: 'NanumSquareNeo-Variable';
-    line-height: 3rem;
->>>>>>> d72347b2c8e4cc9f77565e036210257aec819644
 }
