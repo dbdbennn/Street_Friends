@@ -53,6 +53,38 @@ hr {
 }
 
 .story-p {
-    font-family: 'NanumSquareNeo-Variable';
     font-size: 2rem;
+<<<<<<< HEAD
+}
+
+@media screen and (min-width: 600px){
+    .story-image {
+        width: 35vw;
+        border-radius: 30px;
+        
+    }
+
+    .story-p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .story-image {
+        width: 250px;
+        border-radius: 30px;
+    }
+
+    .story-p {
+        font-size: 0.5rem;
+    }
+
+    .introduce{
+        display: block;
+        text-align: center;
+    }
+=======
+    font-family: 'NanumSquareNeo-Variable';
+    line-height: 3rem;
+>>>>>>> d72347b2c8e4cc9f77565e036210257aec819644
 }
