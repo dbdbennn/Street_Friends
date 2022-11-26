@@ -41,11 +41,39 @@ hr {
 }
 
 .story-image {
-    width: 50vw;
+    width: 45vw;
     border-radius: 30px;
     
 }
 
 .story-p {
     font-size: 2rem;
+}
+
+@media screen and (min-width: 600px){
+    .story-image {
+        width: 35vw;
+        border-radius: 30px;
+        
+    }
+
+    .story-p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .story-image {
+        width: 250px;
+        border-radius: 30px;
+    }
+
+    .story-p {
+        font-size: 0.5rem;
+    }
+
+    .introduce{
+        display: block;
+        text-align: center;
+    }
 }
