@@ -15,6 +15,7 @@ body {
     width: 100px;
     height: 80px;
 }
+<<<<<<< HEAD
 ::-webkit-scrollbar {
     display: none;
 }
@@ -23,6 +24,13 @@ body {
     font-size: 30px;
     color: black;
     margin-left: 10vw;
+=======
+.tit {
+    margin-top: 10vh;
+    font-size: 30px;
+    color: black;
+    margin-left: 7vw;
+>>>>>>> 76519e37afa65d7b7efe6e2aeb90aa76507c1342
     display: flex;
     flex-direction: column;
 }
