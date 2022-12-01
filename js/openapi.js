@@ -43,6 +43,8 @@ const show = (jsonString) => {
     let imgs = [];
     let specialMark = [];
     let careNm = [];
+    let neuterYn = [];
+
     
     let finalCount = 0;
     
@@ -54,6 +56,7 @@ const show = (jsonString) => {
             imgs[finalCount] = parse["popfile"];
             specialMark[finalCount] = parse["specialMark"];
             careNm[finalCount] = parse["careNm"];
+            neuterYn[finalCount] = parse["neuterYn"];
 
             finalCount++;
         }
@@ -69,6 +72,18 @@ const show = (jsonString) => {
         }
         else {
             sexs[i] = "성별 모름";
+        }
+    }
+
+    for(let i = 0; i<totalCount; i++) {
+        if(neuterYn[i] == "Y") {
+            neuterYn[i] = "O";
+        }
+        else if(neuterYn[i] == "N"){
+            neuterYn[i] = "X";
+        }
+        else if(neuterYn[i] == "U"){
+            neuterYn[i] = "미상";
         }
     }
 
@@ -90,6 +105,7 @@ const show = (jsonString) => {
             <p class="identity">품종 : ${kinds[i]}</p>
             <p class="identity">성별 : ${sexs[i]}</p>
             <p class="identity">특징 : ${specialMark[i]}</p>
+            <p class="identity">중성화 : ${neuterYn[i]}</p>
             <p class="identity" class="identity-last">보호소 : ${careNm[i]}</p>
         </div>`;
         document.querySelector("#home-card").append(temp);
