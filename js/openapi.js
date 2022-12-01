@@ -67,12 +67,20 @@ const show = (jsonString) => {
     //kindbox
     //genderbox
 
-    
+
 
     for(let i = 0; i < finalCount; i++){
-        let newElem = document.createElement("div");
-        let newImg = newElem.createElement("img");
-        let newSex = newElem.createElement("p");
+        let temp = document.createElement("div");
+        temp.classList.add("card");
+        temp.innerHTML = `
+        <figure class="card-image"></figure>
+        <div class="card-description">
+            <div class="img">
+                
+            </div>
+            <p class="kind">품종 :<br/>성별 :</p>
+        </div>`;
+        document.querySelector("#home-card").append(temp);
 
     }
 
@@ -87,3 +95,4 @@ const show = (jsonString) => {
     console.log(kinds[0])
     
 }
+
