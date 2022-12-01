@@ -36,18 +36,13 @@ main {
 .card {
     background-color: #D9D9D9;
     border-radius: 1.5rem;
-    /* flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 240px; */
-    flex: 1 0 240px;
     max-width: 228px; /* 최대 너비: 228px */
     height: 293px;
+    padding: 20px;
 }
 .card-description {
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
-    padding: 1rem;
 }
 .card-menu {
     text-align: center; /* 메뉴 가운데 정렬 */
@@ -57,13 +52,13 @@ main {
     height: 120px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
-.kind {
+.identity {
     font-family: 'NanumSquareNeo-Variable';
     margin-top: auto;
     line-height: 200%;
     font-weight: bold;
-    margin-left: 20px;
 }
 
   

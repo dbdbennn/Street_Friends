@@ -66,6 +66,9 @@ const show = (jsonString) => {
         else if(sexs[i] == "M") {
             sexs[i] = "수컷";
         }
+        else {
+            sexs[i] = "성별 모름";
+        }
     }
 
      
@@ -81,12 +84,9 @@ const show = (jsonString) => {
         let temp = document.createElement("div");
         temp.classList.add("card");
         temp.innerHTML = `
-        <figure class="card-image"></figure>
         <div class="card-description">
-            <img class="img" src="${imgs[i]}">
-                
-            </div>
-            <p class="kind">품종 : ${kinds[i]}<br/>성별 : ${sexs[i]}</p>
+            <img class="img" src="${imgs[i]}"/>
+            <p class="identity">품종 : ${kinds[i]}<br/>성별 : ${sexs[i]}</p>
         </div>`;
         document.querySelector("#home-card").append(temp);
 
