@@ -19,7 +19,7 @@ body {
     display: none;
 }
 .tit{
-    margin-top: 10vh;
+    margin-top: 100px;
     font-size: 30px;
     color: black;
     margin-left: 7vw;
@@ -33,7 +33,7 @@ p {
 
 hr {
     border:0;
-    width: 295px;
+    width: 230px;
     margin: 0;
     height: 0.5px;
     background-color: var(--font-color);
