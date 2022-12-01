@@ -41,8 +41,10 @@ const show = (jsonString) => {
     let address = parse["happenPlace"];
     let kind = parse["kindCd"];
     let gender = parse["sexCd"];
+    let neuter = parse["neuterYn"];
     console.log(gender);
     console.log(address);
     console.log(kind);
+    console.log(neuter);
     
 }
