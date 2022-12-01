@@ -10,6 +10,9 @@
 
 body {
     background-color: #FFEDAE;
+}
+
+* {
     cursor: url(/img/cursor.png), auto;
 }
 
