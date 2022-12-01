@@ -41,6 +41,8 @@ const show = (jsonString) => {
     let kinds = [];
     let sexs = [];
     let imgs = [];
+    let specialMark = [];
+    let careNm = [];
     
     let finalCount = 0;
     
@@ -50,14 +52,13 @@ const show = (jsonString) => {
             kinds[finalCount] = parse["kindCd"];
             sexs[finalCount] = parse["sexCd"];
             imgs[finalCount] = parse["popfile"];
+            specialMark[finalCount] = parse["specialMark"];
+            careNm[finalCount] = parse["careNm"];
 
             finalCount++;
         }
     }
 
-    console.log(kinds)
-    console.log(sexs)
-    console.log(imgs)
 
     for(let i = 0; i<totalCount; i++){
         if(sexs[i] == "F"){
@@ -86,7 +87,11 @@ const show = (jsonString) => {
         temp.innerHTML = `
         <div class="card-description">
             <img class="img" src="${imgs[i]}"/>
-            <p class="identity">품종 : ${kinds[i]}<br/>성별 : ${sexs[i]}</p>
+            <p class="identity">
+            품종 : ${kinds[i]}<br/>
+            성별 : ${sexs[i]}<br/>
+            특징 : ${specialMark[i]}<br/>
+            보호소 : ${careNm[i]}</p>
         </div>`;
         document.querySelector("#home-card").append(temp);
 
@@ -99,8 +104,6 @@ const show = (jsonString) => {
     //     sexs[0]
 
     // }
-
-    console.log(kinds[0])
     
 }
 

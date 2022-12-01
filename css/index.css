@@ -60,8 +60,7 @@ hr {
     background-color: #D9D9D9;
     border-radius: 1.5rem;
     max-width: 228px; /* 최대 너비: 228px */
-    height: 293px;
-    padding: 20px;
+    padding: 23px;
 }
 
 /* 카드 안의 내용 */
@@ -72,11 +71,11 @@ hr {
 
 /* 카드 이미지 */
 .img {
-    width: 198px;
-    height: 120px;
+    width: 220px;
+    height: 130px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* 카드 속 정보 p태그 */
