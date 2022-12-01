@@ -75,10 +75,10 @@ const show = (jsonString) => {
         temp.innerHTML = `
         <figure class="card-image"></figure>
         <div class="card-description">
-            <div class="img">
+            <img class="img" src="${imgs[i]}">
                 
             </div>
-            <p class="kind">품종 :<br/>성별 :</p>
+            <p class="kind">품종 : ${kinds[i]}<br/>성별 : ${sexs[i]}</p>
         </div>`;
         document.querySelector("#home-card").append(temp);
 
