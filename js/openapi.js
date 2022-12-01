@@ -37,12 +37,26 @@ getMenuByAPI(link);
 
 const show = (jsonString) => {
     let json = JSON.parse(jsonString);
-    let parse = json["response"]["body"]["items"]["item"][0];
-    let address = parse["happenPlace"];
-    let kind = parse["kindCd"];
-    let gender = parse["sexCd"];
-    console.log(gender);
-    console.log(address);
-    console.log(kind);
+    let totalCount = json["response"]["body"]["totalCount"];
+    let kinds = [];
+    let sexs = [];
+    let imgs = [];
+    
+    let pst = 0;
+    
+    for(let i = 0; i < totalCount; i++){
+        let parse = json["response"]["body"]["items"]["item"][i];
+        if (parse["processState"] == "보호중") {
+            kinds[pst] = parse["kindCd"];
+            sexs[pst] = parse["sexCd"];
+            imgs[pst] = parse["popfile"];
+
+            pst++;
+        }
+    }
+
+    console.log(kinds)
+    console.log(sexs)
+    console.log(imgs)
     
 }
