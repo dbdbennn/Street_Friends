@@ -61,6 +61,7 @@ main {
 .kind {
     font-family: 'NanumSquareNeo-Variable';
     margin-top: auto;
+    margin-left: 20px;
     line-height: 200%;
     font-weight: bold;
 }
