@@ -57,10 +57,27 @@ hr {
     .map {
         width: 100%;
     }
+
+    .tit{
+        font-size: 25px;
+    }
+    
+    hr {
+        width: 193px;
+    }
 }
 
 @media screen and (max-width: 600px){
     .map {
         width: 100%;
+    }
+
+    .tit{
+        font-size: 20px;
+        margin-top: 80px;
+    }
+    
+    hr {
+        width: 156px;
     }
 }
