@@ -11,7 +11,7 @@ const toggleMenu = (toggleId, navListId) => {
       navList.classList.toggle("show-menu");
       //change toggle icon: bx-menu <-> bx-x-circle
       toggleIcon.classList.toggle("bx-menu");
-      toggleIcon.classList.toggle("bx-x-circle");
+      toggleIcon.classList.toggle("bx-x");
     });
   }
 };
