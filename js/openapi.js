@@ -42,16 +42,16 @@ const show = (jsonString) => {
     let sexs = [];
     let imgs = [];
     
-    let pst = 0;
+    let finalCount = 0;
     
     for(let i = 0; i < totalCount; i++){
         let parse = json["response"]["body"]["items"]["item"][i];
         if (parse["processState"] == "보호중") {
-            kinds[pst] = parse["kindCd"];
-            sexs[pst] = parse["sexCd"];
-            imgs[pst] = parse["popfile"];
+            kinds[finalCount] = parse["kindCd"];
+            sexs[finalCount] = parse["sexCd"];
+            imgs[finalCount] = parse["popfile"];
 
-            pst++;
+            finalCount++;
         }
     }
 
@@ -66,6 +66,13 @@ const show = (jsonString) => {
     //imgboxDiv.innerHTML = a태그 src=kinkds[index]
     //kindbox
     //genderbox
+
+    for(let i = 0; i < finalCount; i++){
+        let newElem = document.createElement("div");
+        let newIm7777777777777777777g = newElem.createElement("img");
+        let newSex = newElem.createElement("p");
+
+    }
 
     // for(0~160){
     //     div추가
