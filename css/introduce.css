@@ -10,7 +10,9 @@
 
 body {
     background-color: #FFEDAE;
+    cursor: url(/img/cursor.png), auto;
 }
+
 .log-img {
     width: 100px;
     height: 80px;
