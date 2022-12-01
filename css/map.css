@@ -21,10 +21,10 @@ body {
 }
 
 .tit{
-    margin-top: 15vh;
+    margin-top: 100px;
     font-size: 30px;
     color: black;
-    margin-left: 10vw;
+    margin-left: 7vw;
     display: flex;
     flex-direction: column;
 }
@@ -35,7 +35,7 @@ p {
 
 hr {
     border:0;
-    width: 229px;
+    width: 230px;
     margin: 0;
     height: 0.5px;
     background-color: var(--font-color);
