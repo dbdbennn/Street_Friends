@@ -71,7 +71,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: lightgray;
     height: 0;
     overflow: hidden;
     transition: 0.2s;
