@@ -87,11 +87,10 @@ const show = (jsonString) => {
         temp.innerHTML = `
         <div class="card-description">
             <img class="img" src="${imgs[i]}"/>
-            <p class="identity">
-            품종 : ${kinds[i]}<br/>
-            성별 : ${sexs[i]}<br/>
-            특징 : ${specialMark[i]}<br/>
-            보호소 : ${careNm[i]}</p>
+            <p class="identity">품종 : ${kinds[i]}</p>
+            <p class="identity">성별 : ${sexs[i]}</p>
+            <p class="identity">특징 : ${specialMark[i]}</p>
+            <p class="identity" class="identity-last">보호소 : ${careNm[i]}</p>
         </div>`;
         document.querySelector("#home-card").append(temp);
 
