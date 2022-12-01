@@ -5,3 +5,30 @@ body {
     width: 100px;
     height: 80px;
 }
+.tit{
+    margin-top: 15vh;
+    font-size: 30px;
+    color: black;
+    margin-left: 29vw;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    border:0;
+    width: 229px;
+    margin: 0;
+    height: 0.5px;
+    background-color: var(--font-color);
+}
+.map {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .map {
+        width: 100%;
+    }
+}
