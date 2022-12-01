@@ -43,11 +43,12 @@ hr {
     display: flex;
     margin: 50px;
     margin-left: 7vw;
+    margin-right: 6vw;
     gap: 5vw;
 }
 
 .story-image {
-    width: 45vw;
+    width: 40vw;
     border-radius: 30px;
     
 }
