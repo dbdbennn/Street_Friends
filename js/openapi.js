@@ -67,9 +67,11 @@ const show = (jsonString) => {
     //kindbox
     //genderbox
 
+    
+
     for(let i = 0; i < finalCount; i++){
         let newElem = document.createElement("div");
-        let newIm7777777777777777777g = newElem.createElement("img");
+        let newImg = newElem.createElement("img");
         let newSex = newElem.createElement("p");
 
     }
