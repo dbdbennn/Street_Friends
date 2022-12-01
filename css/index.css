@@ -34,6 +34,10 @@ main {
     margin-bottom: 12px;
 }
 
+/* home-card */
+#home-card{
+    margin-top: 120px;
+}
 
 /* 각각의 카드 */
 .card {
