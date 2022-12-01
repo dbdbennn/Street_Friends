@@ -5,11 +5,11 @@ body {
     width: 100px;
     height: 80px;
 }
-.tit{
-    margin-top: 15vh;
+.tit {
+    margin-top: 10vh;
     font-size: 30px;
     color: black;
-    margin-left: 29vw;
+    margin-left: 7vw;
     display: flex;
     flex-direction: column;
 }
