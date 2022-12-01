@@ -59,6 +59,15 @@ const show = (jsonString) => {
     console.log(sexs)
     console.log(imgs)
 
+    for(let i = 0; i<totalCount; i++){
+        if(sexs == "F"){
+            sexs[i] = "암컷";
+        }
+        else {
+            sexs[i] = "수컷";
+        }
+    }
+
      
     //totakCount 반복 index 반복
     //div 생성, class
@@ -66,7 +75,6 @@ const show = (jsonString) => {
     //imgboxDiv.innerHTML = a태그 src=kinkds[index]
     //kindbox
     //genderbox
-
 
 
     for(let i = 0; i < finalCount; i++){
