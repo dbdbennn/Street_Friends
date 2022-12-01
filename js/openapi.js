@@ -58,5 +58,23 @@ const show = (jsonString) => {
     console.log(kinds)
     console.log(sexs)
     console.log(imgs)
+
+     
+    //totakCount 반복 index 반복
+    //div 생성, class
+    //imgbox
+    //imgboxDiv.innerHTML = a태그 src=kinkds[index]
+    //kindbox
+    //genderbox
+
+    // for(0~160){
+    //     div추가
+    //     class주고
+    //     kinds[i]
+    //     sexs[0]
+
+    // }
+
+    console.log(kinds[0])
     
 }
