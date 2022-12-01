@@ -11,9 +11,11 @@
 body {
     background-color: #FFEDAE;
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
+
 main {
     margin: 88px 32px 44px;
     display: flex; /* card 3개 수평정렬 */
@@ -22,6 +24,7 @@ main {
     row-gap: 40px;
     flex-wrap: wrap; /* 너비 좁아지면, 내리자 */
 }
+
 .log-img {
     width: 100px;
     height: 80px;
@@ -29,10 +32,30 @@ main {
     float: left;
     margin-bottom: 12px;
 }
-.title{
-    float: left;
-    align-items: center;
+
+.tit{
+    margin-top: 100px;
+    font-size: 30px;
+    color: black;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
 }
+
+p {
+    margin-top: 10px;
+}
+
+hr {
+    border:0;
+    width: 230px;
+    margin: 0;
+    height: 0.5px;
+    background-color: var(--font-color);
+}
+
+
+/* 각각의 카드 */
 .card {
     background-color: #D9D9D9;
     border-radius: 1.5rem;
@@ -40,24 +63,27 @@ main {
     height: 293px;
     padding: 20px;
 }
+
+/* 카드 안의 내용 */
 .card-description {
     display: flex;
     flex-direction: column;
 }
-.card-menu {
-    text-align: center; /* 메뉴 가운데 정렬 */
-}
-.img{
+
+/* 카드 이미지 */
+.img {
     width: 198px;
     height: 120px;
     background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+/* 카드 속 정보 p태그 */
 .identity {
     font-family: 'NanumSquareNeo-Variable';
     margin-top: auto;
-    line-height: 200%;
+    line-height: 180%;
     font-weight: bold;
 }
 
