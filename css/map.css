@@ -1,3 +1,13 @@
+:root{
+    --font-color : #392210;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #FFEDAE;
 }
@@ -5,14 +15,22 @@ body {
     width: 100px;
     height: 80px;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .tit{
     margin-top: 15vh;
     font-size: 30px;
     color: black;
-    margin-left: 29vw;
+    margin-left: 10vw;
     display: flex;
     flex-direction: column;
 }
+
+p {
+    margin-top: 10px;
+}
+
 hr {
     border:0;
     width: 229px;
