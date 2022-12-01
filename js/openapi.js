@@ -60,10 +60,10 @@ const show = (jsonString) => {
     console.log(imgs)
 
     for(let i = 0; i<totalCount; i++){
-        if(sexs == "F"){
+        if(sexs[i] == "F"){
             sexs[i] = "암컷";
         }
-        else {
+        else if(sexs[i] == "M") {
             sexs[i] = "수컷";
         }
     }
