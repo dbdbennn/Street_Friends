@@ -10,7 +10,9 @@
 
 body {
     background-color: #FFEDAE;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 * {
