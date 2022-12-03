@@ -1,4 +1,4 @@
-# street_friends🐕🐈
+# Street Friends🐕🐈
 > 2학기 WSM 수행 프로젝트
 ---
 ## 주제: 만남🙌
