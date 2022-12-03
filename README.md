@@ -16,6 +16,12 @@
   - 브랜드 스토리(웹 사이트 정보) 보여주기
   - 동물보호소 위치 보여주기
   
+## 사용기술
+ >  **Front-End: CSS, JavaScript**<br/>
+
+ >  **Open API: 공공데이터API_동물보호관리시스템 유기동물 정보 조회 서비스(공공데이터포털)**
+
+ > **Tools : VScode**
 ## 페이지 구성
 [Figma보러가기](https://www.figma.com/file/yyWMZVntzMEoKF02i9vaKl/s%E1%B4%9B%CA%80%E1%B4%87%E1%B4%87%E1%B4%9B-%D2%93%CA%80%C9%AA%E1%B4%87%C9%B4%E1%B4%85s?node-id=0%3A1&t=0VqscHHQcKoQdsoG-1)
 |메인페이지(데스크탑)| 소개 페이지 | 지도 페이지 |
