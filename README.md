@@ -29,6 +29,9 @@
 |메인페이지(폰)| 소개 페이지 | 지도 페이지 |
 |![image](https://user-images.githubusercontent.com/90046611/203370859-43936ac5-02cb-4933-b0e4-a84f5c5b6a83.png)|![image](https://user-images.githubusercontent.com/90046611/203370934-3838ecd2-91da-42f0-99d5-067a39403989.png)|![image](https://user-images.githubusercontent.com/90046611/203371023-ff94612f-c09f-419a-8cad-2b55321598b0.png)|
 
+## 데모 영상
+https://user-images.githubusercontent.com/90046611/205418954-4023d69e-9c47-429a-bd07-abcf8aa48789.mp4
+
 ## 일정, 구현계획
 | 날짜 | 구현 계획 | 확인 |
 |------|---|---|
