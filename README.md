@@ -1,8 +1,11 @@
-# street_friends🐕🐈
+# Street Friends🐕🐈
 > 2학기 WSM 수행 프로젝트
 ---
+### <div align="center">혹시 유기동물을 찾고 계신가요?<br/> 많은 유기동물들이 당신을 기다리고 있어요</div>
+<div align="center"><a href="https://seungbeen803.github.io/street_friends/">유기동물을 보러가고 싶다면 클릭하기👈</a></div>
+
 ## 주제: 만남🙌
-![image](https://user-images.githubusercontent.com/85720276/205418292-09298f31-8b11-4c2a-9591-0329e652f286.png)
+![image](https://user-images.githubusercontent.com/90046611/203368236-6445f17c-43be-401c-8cbd-c655e2560bd0.png)
 
 ## 만들게 된 배경🙌
 많은 동물들이 주인을 잃어버리거나 주인에게 버려지면서 갈 곳 없이 길거리를 떠돌아다니는 것을 쉽게 볼 수 있습니다.
@@ -16,6 +19,12 @@
   - 브랜드 스토리(웹 사이트 정보) 보여주기
   - 동물보호소 위치 보여주기
   
+## 사용기술
+ >  **Front-End: CSS, JavaScript**<br/>
+
+ >  **Open API: 공공데이터API_동물보호관리시스템 유기동물 정보 조회 서비스(공공데이터포털)**
+
+ > **Tools : VScode**
 ## 페이지 구성
 [Figma보러가기](https://www.figma.com/file/yyWMZVntzMEoKF02i9vaKl/s%E1%B4%9B%CA%80%E1%B4%87%E1%B4%87%E1%B4%9B-%D2%93%CA%80%C9%AA%E1%B4%87%C9%B4%E1%B4%85s?node-id=0%3A1&t=0VqscHHQcKoQdsoG-1)
 |메인페이지(데스크탑)| 소개 페이지 | 지도 페이지 |
@@ -25,6 +34,9 @@
 |![image](https://user-images.githubusercontent.com/90046611/203370242-223b388f-3474-446e-99b1-a61c0d06ae14.png)|![image](https://user-images.githubusercontent.com/90046611/203370315-2f16d360-f15a-4ca9-9717-b5d6c4e6d022.png)|![image](https://user-images.githubusercontent.com/90046611/203370390-69873744-21db-432e-93c5-cd20f334e078.png)|
 |메인페이지(폰)| 소개 페이지 | 지도 페이지 |
 |![image](https://user-images.githubusercontent.com/90046611/203370859-43936ac5-02cb-4933-b0e4-a84f5c5b6a83.png)|![image](https://user-images.githubusercontent.com/90046611/203370934-3838ecd2-91da-42f0-99d5-067a39403989.png)|![image](https://user-images.githubusercontent.com/90046611/203371023-ff94612f-c09f-419a-8cad-2b55321598b0.png)|
+
+## 데모 영상
+https://user-images.githubusercontent.com/90046611/205418954-4023d69e-9c47-429a-bd07-abcf8aa48789.mp4
 
 ## 일정, 구현계획
 | 날짜 | 구현 계획 | 확인 |
