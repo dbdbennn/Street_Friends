@@ -9,7 +9,7 @@
   }
   header {
     /* background-color: var(--first-color); */
-    background-color: #855A3A;
+    background-color: #00264B;
     position: fixed; /* 스크롤해도 항상 위치 고정 */
     left: 0;
     right: 0;
@@ -34,7 +34,7 @@
     list-style: none;
   }
   .nav-link {
-    color: var(--font-color);
+    color: #ffffff;
     text-decoration: none;
     font-size: 30px;
     margin-right: 20px;
@@ -43,7 +43,7 @@
     float: right;
     margin-top: 23px;
     font-size: 30px;
-    color: black;
+    color: #ffffff;
   }
   /* breakpoints */
 /* 2K & 4K */
