@@ -2,7 +2,7 @@
 > 2학기 WSM 수행 프로젝트
 ---
 ### <div align="center">혹시 유기동물을 찾고 계신가요?<br/> 많은 유기동물들이 당신을 기다리고 있어요</div>
-<div align="center"><a href="https://seungbeen803.github.io/street_friends/">유기동물을 보러가고 싶다면 클릭하기👈</a></div>
+<div align="center"><a href="https://dbdbennn.github.io/Street_Friends/">유기동물을 보러가고 싶다면 클릭하기👈</a></div>
 
 ## 주제: 만남🙌
 ![image](https://user-images.githubusercontent.com/90046611/203368236-6445f17c-43be-401c-8cbd-c655e2560bd0.png)
